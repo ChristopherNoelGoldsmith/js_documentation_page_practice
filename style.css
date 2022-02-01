@@ -1,0 +1,26 @@
+*{
+    font-size: 4vh;
+}
+body{
+    display: flex;
+    flex-direction: row;
+}
+body aside{
+    overflow-y: scroll;
+    position: fixed;
+    border-right: solid 3px grey;
+    width: 30%;
+    text-align: justify;
+}
+aside ul li{
+    list-style: none;
+}
+body main{
+    margin-left: 30%;
+    padding: 5vh;
+    font-size: 6vh;
+}
+body main p{
+    font-size: 3vh;
+    margin-left: 3vh;
+}
