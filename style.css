@@ -1,5 +1,6 @@
 *{
     font-size: 4vh;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body{
     display: flex;
@@ -11,9 +12,17 @@ body aside{
     border-right: solid 3px grey;
     width: 30%;
     text-align: justify;
+    height: 100%;
 }
 aside ul li{
     list-style: none;
+}
+li a{
+    color: black;
+    text-decoration: none;
+}
+li a:hover{
+    color: grey
 }
 body main{
     margin-left: 30%;
@@ -21,6 +30,13 @@ body main{
     font-size: 6vh;
 }
 body main p{
-    font-size: 3vh;
     margin-left: 3vh;
+}
+p, .example-box{
+    font-size: 2vh;
+}
+.example-box{
+    background-color: gainsboro;
+    margin: 4vh;
+    padding: 4vh;
 }
